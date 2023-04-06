@@ -1,0 +1,21 @@
+{
+  "name": "hard-hacker-theme",
+  "displayName": "HardHackerTheme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "HardHacker Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/HardHacker Theme-color-theme.json"
+      }
+    ]
+  }
+}
