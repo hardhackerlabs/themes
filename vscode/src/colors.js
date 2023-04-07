@@ -1,0 +1,20 @@
+module.exports = {
+  background: "#211D3F",
+  primary: "#6B84B9",
+  secondary: "#586AE2",
+  error: "#BD1B69",
+  highlight: "#A92393",
+  keyword: "#6ECBF5",
+  variable: "#C252E1",
+  static: "#E0D9F6",
+
+  blackNormal: "#211D3F",
+  blackBright: "#312D4F",
+  red: "#BD1B69",
+  green: "#6B84B9",
+  yellow: "#A92393",
+  blue: "#586AE2",
+  magenta: "#C252E1",
+  cyan: "#6ECBF5",
+  white: "#E0D9F6",
+};

@@ -6,6 +6,10 @@
   "engines": {
     "vscode": "^1.77.0"
   },
+  "scripts": {
+    "start": "nodemon --watch src src/index.js",
+    "build": "node src/index.js"
+  },
   "categories": [
     "Themes"
   ],
@@ -17,5 +21,8 @@
         "path": "./themes/HardHacker Theme-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }

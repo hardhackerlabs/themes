@@ -14,3 +14,11 @@ You can author your README using Visual Studio Code. Here are some useful editor
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+
+## Colors
+
+* background: #211D3F
+* keyword: #3A3D82
+* method: #6B84B9
+* error: #BD1B69
+* parameter: #A92393
