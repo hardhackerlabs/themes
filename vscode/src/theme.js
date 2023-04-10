@@ -1,30 +1,143 @@
-const colors = require('./colors');
+const {colors, tools} = require('./colors');
 
 function getTheme() {
   return {
     name: "HardHacker Theme",
+    semanticHighlighting: true,
     colors: {
+      "focusBorder": colors.transparent,
+      "progressBar.background": colors.themePrimary,
+
       "editor.background": colors.background,
-      "editor.foreground": colors.static,
-      "editorInlayHint.foreground": "#FFFFFF50",
+      "editor.foreground": colors.text,
+      "editorInlayHint.foreground": colors.placeholderText,
       "editorInlayHint.background": "#FFFFFF0F",
 
-      "activityBarBadge.background": colors.secondary,
+      "activityBarBadge.background": colors.themePrimary,
+      "activityBarBadge.foreground": colors.text,
       "activityBar.background": colors.background,
+      "activityBar.foreground": colors.themePrimary,
+      "activityBar.activeBorder": colors.themePrimary,
+      "activityBar.inactiveForeground": colors.text,
 
-      "sideBarTitle.foreground": "#eeffff",
+
+      "sideBarTitle.foreground": colors.text,
       "sideBar.background": colors.background,
-      "sideBarSectionHeader.background": "#00000000",
+      "sideBar.foreground": colors.text,
+      "sideBarSectionHeader.background": colors.transparent,
+      // "list.activeSelectionForeground": colors.themePrimary,
+      "list.activeSelectionBackground": tools.transparent(colors.brightBlack, "80"),
+      "list.hoverBackground": tools.transparent(colors.brightBlack, "80"),
+      "list.highlightForeground": colors.themePrimary,
+      "list.inactiveSelectionForeground": colors.themePrimary,
+      "list.inactiveSelectionBackground": tools.transparent(colors.brightBlack, "80"),
+      "listFilterWidget.shadow": colors.themePrimary,
+      // "list.hoverForeground": colors.themePrimary,
 
       "tab.activeBackground": colors.background,
       "tab.inactiveBackground": colors.background,
-      "tab.activeBorder": colors.primary,
+      "tab.activeBorder": colors.themePrimary,
       "editorGroupHeader.tabsBackground": colors.background,
 
-      "statusBar.background": colors.secondary,
+      "statusBar.background": colors.themePrimary,
+      "statusBar.foreground": colors.text,
+      "statusBarItem.remoteBackground": colors.themePrimary,
+      // "statusBarItem.remoteForeground": colors.black,
 
       "editor.selectionBackground": "#FFFFFF0F",
       "editor.wordHighlightBackground": "#FFFFFF1F",
+
+      "terminal.ansiBrightBlack": colors.brightBlack,
+      "terminal.ansiBrightBlue": colors.blue,
+      "terminal.ansiBrightCyan": colors.cyan,
+      "terminal.ansiBrightGreen": colors.green,
+      "terminal.ansiBrightMagenta": colors.magenta,
+      "terminal.ansiBrightRed": colors.red,
+      "terminal.ansiBrightWhite": colors.white,
+      "terminal.ansiBrightYellow": colors.yellow,
+      "terminal.ansiBlack": colors.black,
+      "terminal.ansiBlue": colors.blue,
+      "terminal.ansiCyan": colors.cyan,
+      "terminal.ansiGreen": colors.green,
+      "terminal.ansiMagenta": colors.magenta,
+      "terminal.ansiRed": colors.red,
+      "terminal.ansiWhite": colors.white,
+      "terminal.ansiYellow": colors.yellow,
+
+      "notificationCenter.border": colors.transparent,
+      "notificationCenterHeader.foreground": colors.white,
+      "notificationCenterHeader.background": colors.themePrimary,
+      "notificationToast.border": colors.background,
+      "notifications.foreground": colors.text,
+      "notifications.background": colors.background,
+      "notifications.border": tools.transparent(colors.brightBlack, "80"),
+      "notificationLink.foreground": colors.text,
+
+      "panel.background": colors.background,
+      "panel.border": colors.themePrimary,
+      "panelTitle.activeBorder": colors.themePrimary,
+      "panelTitle.activeForeground": colors.themePrimary,
+      "panelTitle.inactiveForeground": colors.text,
+
+      "button.background": colors.themePrimary,
+      "button.foreground": colors.text,
+      "button.hoverBackground": colors.themePrimary,
+      "button.secondaryBackground": colors.brightBlack,
+      "button.secondaryForeground": colors.themePrimary,
+      "button.secondaryHoverBackground": colors.brightBlack,
+      "checkbox.background": colors.background,
+      "checkbox.foreground": colors.themePrimary,
+
+      "keybindingLabel.bottomBorder": colors.themePrimary,
+
+      "scrollbar.shadow": colors.brightBlack,
+      "scrollbarSlider.background": tools.transparent(colors.brightBlack, "80"),
+      "scrollbarSlider.hoverBackground": colors.brightBlack,
+      "scrollbarSlider.activeBackground": colors.themePrimary,
+
+      // "widget.shadow": colors.themePrimary,
+      "editorWidget.background": colors.background,
+      "editorWidget.border": colors.themePrimary,
+      "editorHoverWidget.background": colors.background,
+      "editorHoverWidget.foreground": colors.text,
+      "editorHoverWidget.border": colors.themePrimary,
+      "editorSuggestWidget.background": colors.background,
+      "editorSuggestWidget.border": colors.themePrimary,
+      "editorSuggestWidget.foreground": colors.text,
+      "editorSuggestWidget.highlightForeground": colors.themePrimary,
+      "editorSuggestWidget.focusHighlightForeground": colors.themePrimary,
+      "editorSuggestWidget.selectedBackground": colors.brightBlack,
+      "editorSuggestWidget.selectedForeground": colors.text,
+      "editorLink.activeForeground": colors.magenta,
+      "editorCodeLens.foreground": tools.transparent(colors.magenta, "40"),
+
+      "pickerGroup.border": colors.themePrimary,
+		  "pickerGroup.foreground": colors.themePrimary,
+
+      "input.background": colors.background,
+      "input.border": colors.themePrimary,
+      "input.foreground": colors.text,
+      "input.placeholderForeground": colors.placeholderText,
+      "inputOption.activeBorder": colors.themePrimary,
+      "inputValidation.errorBackground": colors.background,
+      "inputValidation.errorBorder": colors.magenta,
+      "inputValidation.infoBackground": colors.background,
+      "inputValidation.infoBorder": colors.background,
+      "inputValidation.warningBackground": colors.background,
+      "inputValidation.warningBorder": colors.magenta,
+      "inputOption.activeBackground": colors.magenta,
+
+      "gitDecoration.modifiedResourceForeground": colors.yellow, // Color for modified git resources.
+      "gitDecoration.deletedResourceForeground": colors.red, // Color for deleted git resources.
+      "gitDecoration.untrackedResourceForeground": colors.green, // Color for untracked git resources.
+      "gitDecoration.ignoredResourceForeground": colors.brightBlack, // Color for ignored git resources.
+      "gitDecoration.conflictingResourceForeground": colors.magenta, // Color for conflicting git resources.
+
+      "textLink.activeForeground": colors.magenta,
+      "textLink.foreground": colors.magenta,
+      "textPreformat.foreground": colors.themePrimary,
+
+      "settings.modifiedItemIndicator": colors.themePrimary,
     },
     tokenColors: [
       {
@@ -35,7 +148,7 @@ function getTheme() {
         ],
         settings: {
           fontStyle: "italic",
-          foreground: "#EBB7E9"
+          foreground: colors.comment,
         }
       },
       {
@@ -54,7 +167,7 @@ function getTheme() {
           "constant.other.color"
         ],
         settings: {
-          foreground: "#ffffff"
+          foreground: colors.white,
         }
       },
       {
@@ -64,18 +177,28 @@ function getTheme() {
           "invalid.illegal"
         ],
         settings: {
-          foreground: colors.error,
+          foreground: colors.highlight,
         }
       },
       {
-        name: "Keyword, Storage",
+        name: "Keyword",
         scope: [
           "keyword",
-          "storage.type",
-          "storage.modifier"
+          "keyword.other",
         ],
         settings: {
-          foreground: colors.secondary,
+          foreground: colors.keyword,
+        }
+      },
+      {
+        name: "Storage",
+        scope: [
+          "storage.type",
+          "storage.modifier",
+          "storage.control",
+        ],
+        settings: {
+          foreground: colors.magenta,
         }
       },
       {
@@ -95,7 +218,7 @@ function getTheme() {
           "keyword.other.substitution"
         ],
         settings: {
-          foreground: "#EBB7E9"
+          foreground: colors.operator,
         }
       },
       {
@@ -106,7 +229,7 @@ function getTheme() {
           "markup.deleted.git_gutter"
         ],
         settings: {
-          foreground: colors.highlight,
+          foreground: colors.class,
         }
       },
       {
@@ -119,7 +242,7 @@ function getTheme() {
           "keyword.other.special-method"
         ],
         settings: {
-          foreground: colors.primary,
+          foreground: colors.method,
         }
       },
       {
@@ -128,7 +251,7 @@ function getTheme() {
           "meta.block variable.other"
         ],
         settings: {
-          foreground: colors.highlight,
+          foreground: colors.class,
         }
       },
       {
@@ -138,7 +261,7 @@ function getTheme() {
           "string.other.link"
         ],
         settings: {
-          foreground: colors.highlight,
+          foreground: colors.class,
         }
       },
       {
@@ -150,11 +273,10 @@ function getTheme() {
           "constant.character",
           "constant.escape",
           "variable.parameter",
-          "keyword.other.unit",
-          "keyword.other"
+          "keyword.other.unit"
         ],
         settings: {
-          foreground: colors.keyword,
+          foreground: colors.number,
         }
       },
       {
@@ -169,7 +291,7 @@ function getTheme() {
           "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
         ],
         settings: {
-          foreground: colors.static,
+          foreground: colors.string,
         }
       },
       {
@@ -185,7 +307,7 @@ function getTheme() {
           "support.type.sys-types"
         ],
         settings: {
-          foreground: colors.highlight,
+          foreground: colors.class,
         }
       },
       {
@@ -194,7 +316,7 @@ function getTheme() {
           "support.type"
         ],
         settings: {
-          foreground: "#EBB7E9"
+          foreground: colors.class,
         }
       },
       {
@@ -208,7 +330,7 @@ function getTheme() {
           "source.postcss support.type.property-name"
         ],
         settings: {
-          foreground: "#EBB7E9"
+          foreground: colors.class,
         }
       },
       {
@@ -219,7 +341,7 @@ function getTheme() {
           "variable.other.class.js"
         ],
         settings: {
-          foreground: colors.error,
+          foreground: colors.highlight,
         }
       },
       {
@@ -229,7 +351,7 @@ function getTheme() {
         ],
         settings: {
           fontStyle: "italic",
-          foreground: colors.error,
+          foreground: colors.highlight,
         }
       },
       {
@@ -239,7 +361,7 @@ function getTheme() {
         ],
         settings: {
           fontStyle: "italic",
-          foreground: colors.primary,
+          foreground: colors.method,
         }
       },
       {
@@ -249,7 +371,7 @@ function getTheme() {
           "variable.function.constructor"
         ],
         settings: {
-          foreground: colors.primary,
+          foreground: colors.method,
         }
       },
       {
@@ -258,7 +380,7 @@ function getTheme() {
           "entity.other.attribute-name"
         ],
         settings: {
-          foreground: colors.secondary,
+          foreground: colors.keyword,
         }
       },
       {
@@ -269,7 +391,7 @@ function getTheme() {
         ],
         settings: {
           fontStyle: "italic",
-          foreground: colors.highlight,
+          foreground: colors.class,
         }
       },
       {
@@ -278,7 +400,7 @@ function getTheme() {
           "entity.other.attribute-name.class"
         ],
         settings: {
-          foreground: colors.highlight,
+          foreground: colors.class,
         }
       },
       {
@@ -287,7 +409,7 @@ function getTheme() {
           "source.sass keyword.control"
         ],
         settings: {
-          foreground: colors.primary,
+          foreground: colors.method,
         }
       },
       {
@@ -296,7 +418,7 @@ function getTheme() {
           "markup.inserted"
         ],
         settings: {
-          foreground: colors.static,
+          foreground: colors.text,
         }
       },
       {
@@ -305,7 +427,7 @@ function getTheme() {
           "markup.deleted"
         ],
         settings: {
-          foreground: colors.error,
+          foreground: colors.highlight,
         }
       },
       {
@@ -314,7 +436,7 @@ function getTheme() {
           "markup.changed"
         ],
         settings: {
-          foreground: colors.secondary,
+          foreground: colors.keyword,
         }
       },
       {
@@ -323,7 +445,7 @@ function getTheme() {
           "string.regexp"
         ],
         settings: {
-          foreground: "#EBB7E9"
+          foreground: colors.class,
         }
       },
       {
@@ -332,7 +454,7 @@ function getTheme() {
           "constant.character.escape"
         ],
         settings: {
-          foreground: "#EBB7E9"
+          foreground: colors.class,
         }
       },
       {
@@ -354,7 +476,7 @@ function getTheme() {
         ],
         settings: {
           fontStyle: "italic",
-          foreground: colors.primary,
+          foreground: colors.method,
         }
       },
       {
@@ -364,7 +486,7 @@ function getTheme() {
         ],
         settings: {
           fontStyle: "italic",
-          foreground: colors.error,
+          foreground: colors.highlight,
         }
       },
       {
@@ -373,7 +495,7 @@ function getTheme() {
           "source.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         settings: {
-          foreground: colors.secondary,
+          foreground: colors.keyword,
         }
       },
       {
@@ -382,7 +504,7 @@ function getTheme() {
           "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         settings: {
-          foreground: colors.highlight,
+          foreground: colors.class,
         }
       },
       {
@@ -400,7 +522,7 @@ function getTheme() {
           "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         settings: {
-          foreground: colors.error,
+          foreground: colors.highlight,
         }
       },
       {
@@ -418,7 +540,7 @@ function getTheme() {
           "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         settings: {
-          foreground: colors.primary,
+          foreground: colors.method,
         }
       },
       {
@@ -427,7 +549,7 @@ function getTheme() {
           "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         settings: {
-          foreground: colors.highlight,
+          foreground: colors.class,
         }
       },
       {
@@ -436,7 +558,7 @@ function getTheme() {
           "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         settings: {
-          foreground: colors.secondary,
+          foreground: colors.keyword,
         }
       },
       {
@@ -445,7 +567,7 @@ function getTheme() {
           "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         settings: {
-          foreground: colors.static,
+          foreground: colors.text,
         }
       },
       {
@@ -455,7 +577,7 @@ function getTheme() {
           "punctuation.definition.list_item.markdown"
         ],
         settings: {
-          foreground: "#EEFFFF"
+          foreground: colors.text,
         }
       },
       {
@@ -464,7 +586,7 @@ function getTheme() {
           "text.html.markdown markup.inline.raw.markdown"
         ],
         settings: {
-          foreground: colors.secondary,
+          foreground: colors.keyword,
         }
       },
       {
@@ -484,7 +606,7 @@ function getTheme() {
           "markup.heading.markdown punctuation.definition.heading.markdown"
         ],
         settings: {
-          foreground: colors.static,
+          foreground: colors.text,
         }
       },
       {
@@ -494,7 +616,7 @@ function getTheme() {
         ],
         settings: {
           fontStyle: "italic",
-          foreground: colors.highlight,
+          foreground: colors.class,
         }
       },
       {
@@ -505,7 +627,7 @@ function getTheme() {
         ],
         settings: {
           fontStyle: "bold",
-          foreground: colors.highlight,
+          foreground: colors.class,
         }
       },
       {
@@ -520,7 +642,7 @@ function getTheme() {
         ],
         settings: {
           fontStyle: "bold",
-          foreground: colors.highlight,
+          foreground: colors.class,
         }
       },
       {
@@ -557,7 +679,7 @@ function getTheme() {
           "string.other.link.title.markdown"
         ],
         settings: {
-          foreground: colors.primary,
+          foreground: colors.method,
         }
       },
       {
@@ -566,7 +688,7 @@ function getTheme() {
           "string.other.link.description.title.markdown"
         ],
         settings: {
-          foreground: colors.secondary,
+          foreground: colors.keyword,
         }
       },
       {
@@ -575,7 +697,7 @@ function getTheme() {
           "constant.other.reference.link.markdown"
         ],
         settings: {
-          foreground: colors.highlight,
+          foreground: colors.class,
         }
       },
       {
@@ -584,7 +706,7 @@ function getTheme() {
           "markup.raw.block"
         ],
         settings: {
-          foreground: colors.secondary,
+          foreground: colors.keyword,
         }
       },
       {
@@ -613,7 +735,7 @@ function getTheme() {
           "punctuation.section.class.end"
         ],
         settings: {
-          foreground: "#EEFFFF"
+          foreground: colors.text,
         }
       },
       {
@@ -641,7 +763,7 @@ function getTheme() {
           "markup.table"
         ],
         settings: {
-          foreground: "#EEFFFF"
+          foreground: colors.text,
         }
       }
     ]
