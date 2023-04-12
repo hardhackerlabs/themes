@@ -1,4 +1,4 @@
-const {colors, tools} = require('./colors');
+const {originColors, colors} = require('./colors');
 
 function getTheme() {
   return {
@@ -8,9 +8,14 @@ function getTheme() {
       "focusBorder": colors.transparent,
       "progressBar.background": colors.themePrimary,
 
+      "titleBar.activeBackground": colors.background,
+      "titleBar.activeForeground": colors.text,
+      "titleBar.inactiveBackground": colors.background,
+      "titleBar.inactiveForeground": colors.text,
+
       "editor.background": colors.background,
       "editor.foreground": colors.text,
-      "editorInlayHint.foreground": colors.placeholderText,
+      "editorInlayHint.foreground": colors.secondaryText,
       "editorInlayHint.background": "#FFFFFF0F",
 
       "activityBarBadge.background": colors.themePrimary,
@@ -18,19 +23,26 @@ function getTheme() {
       "activityBar.background": colors.background,
       "activityBar.foreground": colors.themePrimary,
       "activityBar.activeBorder": colors.themePrimary,
-      "activityBar.inactiveForeground": colors.text,
-
+      "activityBar.inactiveForeground": colors.secondaryText,
 
       "sideBarTitle.foreground": colors.text,
       "sideBar.background": colors.background,
       "sideBar.foreground": colors.text,
+      "statusBar.debuggingBackground": colors.yellow,
+      "statusBar.debuggingForeground": colors.black,
+      "statusBar.noFolderBackground": colors.black,
+      "statusBar.noFolderForeground": colors.white,
+      "statusBarItem.activeBackground": colors.highlightBackground,
+      "statusBarItem.hoverBackground": colors.highlightBackground,
+      "statusBarItem.prominentBackground": colors.black,
+      "statusBarItem.prominentHoverBackground": colors.black,
       "sideBarSectionHeader.background": colors.transparent,
       // "list.activeSelectionForeground": colors.themePrimary,
-      "list.activeSelectionBackground": tools.transparent(colors.brightBlack, "80"),
-      "list.hoverBackground": tools.transparent(colors.brightBlack, "80"),
+      "list.activeSelectionBackground": colors.highlightBackground,
+      "list.hoverBackground": colors.highlightBackground,
       "list.highlightForeground": colors.themePrimary,
       "list.inactiveSelectionForeground": colors.themePrimary,
-      "list.inactiveSelectionBackground": tools.transparent(colors.brightBlack, "80"),
+      "list.inactiveSelectionBackground": colors.highlightBackground,
       "listFilterWidget.shadow": colors.themePrimary,
       // "list.hoverForeground": colors.themePrimary,
 
@@ -39,7 +51,7 @@ function getTheme() {
       "tab.activeBorder": colors.themePrimary,
       "editorGroupHeader.tabsBackground": colors.background,
 
-      "statusBar.background": colors.themePrimary,
+      "statusBar.background": colors.background,
       "statusBar.foreground": colors.text,
       "statusBarItem.remoteBackground": colors.themePrimary,
       // "statusBarItem.remoteForeground": colors.black,
@@ -70,7 +82,7 @@ function getTheme() {
       "notificationToast.border": colors.background,
       "notifications.foreground": colors.text,
       "notifications.background": colors.background,
-      "notifications.border": tools.transparent(colors.brightBlack, "80"),
+      "notifications.border": colors.highlightBackground,
       "notificationLink.foreground": colors.text,
 
       "panel.background": colors.background,
@@ -91,7 +103,7 @@ function getTheme() {
       "keybindingLabel.bottomBorder": colors.themePrimary,
 
       "scrollbar.shadow": colors.brightBlack,
-      "scrollbarSlider.background": tools.transparent(colors.brightBlack, "80"),
+      "scrollbarSlider.background": colors.highlightBackground,
       "scrollbarSlider.hoverBackground": colors.brightBlack,
       "scrollbarSlider.activeBackground": colors.themePrimary,
 
@@ -109,7 +121,7 @@ function getTheme() {
       "editorSuggestWidget.selectedBackground": colors.brightBlack,
       "editorSuggestWidget.selectedForeground": colors.text,
       "editorLink.activeForeground": colors.magenta,
-      "editorCodeLens.foreground": tools.transparent(colors.magenta, "40"),
+      "editorCodeLens.foreground": originColors.magenta.setAlpha(0.3).toHex8String(),
 
       "pickerGroup.border": colors.themePrimary,
 		  "pickerGroup.foreground": colors.themePrimary,
@@ -117,7 +129,7 @@ function getTheme() {
       "input.background": colors.background,
       "input.border": colors.themePrimary,
       "input.foreground": colors.text,
-      "input.placeholderForeground": colors.placeholderText,
+      "input.placeholderForeground": colors.secondaryText,
       "inputOption.activeBorder": colors.themePrimary,
       "inputValidation.errorBackground": colors.background,
       "inputValidation.errorBorder": colors.magenta,
@@ -127,11 +139,25 @@ function getTheme() {
       "inputValidation.warningBorder": colors.magenta,
       "inputOption.activeBackground": colors.magenta,
 
+      "peekView.border": colors.themePrimary,
+      "peekViewEditor.background": colors.highlightBackground,
+      "peekViewEditor.matchHighlightBackground": colors.highlightBackground,
+      "peekViewEditorGutter.background": colors.highlightBackground,
+      "peekViewResult.background": colors.highlightBackground,
+      "peekViewResult.fileForeground": colors.text,
+      "peekViewResult.lineForeground": colors.text,
+      "peekViewResult.matchHighlightBackground": colors.background,
+      "peekViewResult.selectionBackground": colors.background,
+      "peekViewResult.selectionForeground": colors.text,
+      "peekViewTitle.background": colors.highlightBackground,
+      "peekViewTitleDescription.foreground": colors.secondaryText,
+      "peekViewTitleLabel.foreground": colors.themePrimary,
+
       "gitDecoration.modifiedResourceForeground": colors.yellow, // Color for modified git resources.
       "gitDecoration.deletedResourceForeground": colors.red, // Color for deleted git resources.
       "gitDecoration.untrackedResourceForeground": colors.green, // Color for untracked git resources.
-      "gitDecoration.ignoredResourceForeground": colors.brightBlack, // Color for ignored git resources.
-      "gitDecoration.conflictingResourceForeground": colors.magenta, // Color for conflicting git resources.
+      "gitDecoration.ignoredResourceForeground": colors.secondaryText, // Color for ignored git resources.
+      "gitDecoration.conflictingResourceForeground": colors.orange, // Color for conflicting git resources.
 
       "textLink.activeForeground": colors.magenta,
       "textLink.foreground": colors.magenta,
@@ -167,7 +193,7 @@ function getTheme() {
           "constant.other.color"
         ],
         settings: {
-          foreground: colors.white,
+          foreground: colors.text,
         }
       },
       {
@@ -495,7 +521,7 @@ function getTheme() {
           "source.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         settings: {
-          foreground: colors.keyword,
+          foreground: colors.magenta,
         }
       },
       {
@@ -504,7 +530,7 @@ function getTheme() {
           "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         settings: {
-          foreground: colors.class,
+          foreground: colors.cyan,
         }
       },
       {
@@ -513,7 +539,7 @@ function getTheme() {
           "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         settings: {
-          foreground: colors.keyword,
+          foreground: colors.yellow,
         }
       },
       {
@@ -522,7 +548,7 @@ function getTheme() {
           "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         settings: {
-          foreground: colors.highlight,
+          foreground: colors.blue,
         }
       },
       {
@@ -531,7 +557,7 @@ function getTheme() {
           "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         settings: {
-          foreground: "#C17E70"
+          foreground: colors.red,
         }
       },
       {
@@ -606,7 +632,7 @@ function getTheme() {
           "markup.heading.markdown punctuation.definition.heading.markdown"
         ],
         settings: {
-          foreground: colors.text,
+          foreground: colors.themePrimary,
         }
       },
       {
@@ -661,7 +687,7 @@ function getTheme() {
           "markup.quote punctuation.definition.blockquote.markdown"
         ],
         settings: {
-          foreground: "#65737E"
+          foreground: colors.magenta,
         }
       },
       {
@@ -670,7 +696,8 @@ function getTheme() {
           "markup.quote"
         ],
         settings: {
-          fontStyle: "italic"
+          fontStyle: "italic",
+          foreground: colors.magenta,
         }
       },
       {
@@ -754,7 +781,45 @@ function getTheme() {
         ],
         settings: {
           fontStyle: "bold",
-          foreground: "#65737E"
+          foreground: colors.secondaryText,
+        }
+      },
+      {
+        "name": "[MARKDOWN] - Color for Text inside inline code block `code`",
+        "scope": "markup.inline.raw.string.markdown",
+        "settings": {
+          "foreground": colors.green,
+        }
+      },
+      {
+        "name": "[MARKDOWN] - Color for Quote Punctuation",
+        "scope": "punctuation.definition.quote.begin.markdown",
+        "settings": {
+          "foreground": colors.yellow,
+        }
+      },
+      {
+        "name": "[MARKDOWN] - Color for Lists",
+        "scope": [
+          "beginning.punctuation.definition.list.markdown",
+          "punctuation.definition.list.begin.markdown",
+        ],
+        "settings": {
+          "foreground": colors.themePrimary,
+        }
+      },
+      {
+        "name": "[MARKDOWN] - Color for code block language",
+        "scope": "fenced_code.block.language.markdown",
+        "settings": {
+          "foreground": colors.secondaryText,
+        }
+      },
+      {
+        "name": "[MARKDOWN] - Color for code block punctuation",
+        "scope": "punctuation.definition.markdown",
+        "settings": {
+          "foreground": colors.green,
         }
       },
       {

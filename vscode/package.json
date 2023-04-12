@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "nodemon --watch src src/index.js",
-    "build": "node src/index.js"
+    "build": "node src/index.js",
+    "package": "vsce package -o ./hardhacker-theme.vsix"
   },
   "categories": [
     "Themes"
@@ -23,6 +24,8 @@
     ]
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.22",
+    "tinycolor2": "^1.6.0"
   }
 }
