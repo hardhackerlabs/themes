@@ -19,7 +19,7 @@ function getTheme() {
       "editorInlayHint.background": "#FFFFFF0F",
 
       "activityBarBadge.background": colors.themePrimary,
-      "activityBarBadge.foreground": colors.text,
+      "activityBarBadge.foreground": colors.black,
       "activityBar.background": colors.background,
       "activityBar.foreground": colors.themePrimary,
       "activityBar.activeBorder": colors.themePrimary,
@@ -28,7 +28,7 @@ function getTheme() {
       "sideBarTitle.foreground": colors.text,
       "sideBar.background": colors.background,
       "sideBar.foreground": colors.text,
-      "statusBar.debuggingBackground": colors.yellow,
+      "statusBar.debuggingBackground": colors.green,
       "statusBar.debuggingForeground": colors.black,
       "statusBar.noFolderBackground": colors.black,
       "statusBar.noFolderForeground": colors.white,

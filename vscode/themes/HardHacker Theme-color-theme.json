@@ -13,7 +13,7 @@
     "editorInlayHint.foreground": "#eee9fc66",
     "editorInlayHint.background": "#FFFFFF0F",
     "activityBarBadge.background": "#e965a5ff",
-    "activityBarBadge.foreground": "#eee9fcff",
+    "activityBarBadge.foreground": "#282433ff",
     "activityBar.background": "#282433ff",
     "activityBar.foreground": "#e965a5ff",
     "activityBar.activeBorder": "#e965a5ff",
@@ -21,7 +21,7 @@
     "sideBarTitle.foreground": "#eee9fcff",
     "sideBar.background": "#282433ff",
     "sideBar.foreground": "#eee9fcff",
-    "statusBar.debuggingBackground": "#ebde76ff",
+    "statusBar.debuggingBackground": "#b1f2a7ff",
     "statusBar.debuggingForeground": "#282433ff",
     "statusBar.noFolderBackground": "#282433ff",
     "statusBar.noFolderForeground": "#eee9fcff",
@@ -48,7 +48,7 @@
     "terminal.ansiBrightBlack": "#655980ff",
     "terminal.ansiBrightBlue": "#b1baf4ff",
     "terminal.ansiBrightCyan": "#b3f4f3ff",
-    "terminal.ansiBrightGreen": "#afef8dff",
+    "terminal.ansiBrightGreen": "#b1f2a7ff",
     "terminal.ansiBrightMagenta": "#e192efff",
     "terminal.ansiBrightRed": "#e965a5ff",
     "terminal.ansiBrightWhite": "#eee9fcff",
@@ -56,7 +56,7 @@
     "terminal.ansiBlack": "#282433ff",
     "terminal.ansiBlue": "#b1baf4ff",
     "terminal.ansiCyan": "#b3f4f3ff",
-    "terminal.ansiGreen": "#afef8dff",
+    "terminal.ansiGreen": "#b1f2a7ff",
     "terminal.ansiMagenta": "#e192efff",
     "terminal.ansiRed": "#e965a5ff",
     "terminal.ansiWhite": "#eee9fcff",
@@ -130,7 +130,7 @@
     "peekViewTitleLabel.foreground": "#e965a5ff",
     "gitDecoration.modifiedResourceForeground": "#ebde76ff",
     "gitDecoration.deletedResourceForeground": "#e965a5ff",
-    "gitDecoration.untrackedResourceForeground": "#afef8dff",
+    "gitDecoration.untrackedResourceForeground": "#b1f2a7ff",
     "gitDecoration.ignoredResourceForeground": "#eee9fc66",
     "gitDecoration.conflictingResourceForeground": "#ea7e6cff",
     "textLink.activeForeground": "#e192efff",
@@ -290,7 +290,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#afef8dff"
+        "foreground": "#b1f2a7ff"
       }
     },
     {
@@ -761,7 +761,7 @@
       "name": "[MARKDOWN] - Color for Text inside inline code block `code`",
       "scope": "markup.inline.raw.string.markdown",
       "settings": {
-        "foreground": "#afef8dff"
+        "foreground": "#b1f2a7ff"
       }
     },
     {
@@ -792,7 +792,7 @@
       "name": "[MARKDOWN] - Color for code block punctuation",
       "scope": "punctuation.definition.markdown",
       "settings": {
-        "foreground": "#afef8dff"
+        "foreground": "#b1f2a7ff"
       }
     },
     {

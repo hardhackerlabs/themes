@@ -5,7 +5,8 @@ const originColors = {
   black: tinycolor("#282433"),
   brightBlack: tinycolor("#655980"),
   red: tinycolor("#FF4FA4"),
-  green: tinycolor("#AAFF7D"),
+  // green: tinycolor("#AAFF7D"), // not color blind safe
+  green: tinycolor("#A8FF9B"), // color blind safe, avoid conflict with yellow
   yellow: tinycolor("#FFED63"),
   blue: tinycolor("#A6B2FF"),
   magenta: tinycolor("#EC82FF"),
