@@ -28,14 +28,6 @@ function getTheme() {
       "sideBarTitle.foreground": colors.text,
       "sideBar.background": colors.background,
       "sideBar.foreground": colors.text,
-      "statusBar.debuggingBackground": colors.green,
-      "statusBar.debuggingForeground": colors.black,
-      "statusBar.noFolderBackground": colors.black,
-      "statusBar.noFolderForeground": colors.white,
-      "statusBarItem.activeBackground": colors.highlightBackground,
-      "statusBarItem.hoverBackground": colors.highlightBackground,
-      "statusBarItem.prominentBackground": colors.black,
-      "statusBarItem.prominentHoverBackground": colors.black,
       "sideBarSectionHeader.background": colors.transparent,
       // "list.activeSelectionForeground": colors.themePrimary,
       "list.activeSelectionBackground": colors.highlightBackground,
@@ -53,7 +45,15 @@ function getTheme() {
 
       "statusBar.background": colors.background,
       "statusBar.foreground": colors.text,
+      "statusBar.debuggingBackground": colors.yellow,
+      "statusBar.debuggingForeground": colors.black,
+      "statusBar.noFolderBackground": colors.black,
+      "statusBar.noFolderForeground": colors.white,
       "statusBarItem.remoteBackground": colors.themePrimary,
+      "statusBarItem.activeBackground": colors.highlightBackground,
+      "statusBarItem.hoverBackground": colors.highlightBackground,
+      "statusBarItem.prominentBackground": colors.black,
+      "statusBarItem.prominentHoverBackground": colors.black,
       // "statusBarItem.remoteForeground": colors.black,
 
       "editor.selectionBackground": "#FFFFFF0F",
@@ -98,7 +98,14 @@ function getTheme() {
       "button.secondaryForeground": colors.themePrimary,
       "button.secondaryHoverBackground": colors.brightBlack,
       "checkbox.background": colors.background,
-      "checkbox.foreground": colors.themePrimary,
+      "checkbox.foreground": colors.text,
+      "checkbox.border": colors.themePrimary,
+      "checkbox.selectBackground": colors.themePrimary,
+
+      "dropdown.background": colors.highlightBackground,
+      "dropdown.listBackground": colors.highlightBackground,
+      "dropdown.border": colors.themePrimary,
+      "dropdown.foreground": colors.text,
 
       "keybindingLabel.bottomBorder": colors.themePrimary,
 
@@ -140,18 +147,44 @@ function getTheme() {
       "inputOption.activeBackground": colors.magenta,
 
       "peekView.border": colors.themePrimary,
-      "peekViewEditor.background": colors.highlightBackground,
-      "peekViewEditor.matchHighlightBackground": colors.highlightBackground,
+      "peekViewEditor.background": colors.background,
+      "peekViewEditor.matchHighlightBackground": colors.transparent,
       "peekViewEditorGutter.background": colors.highlightBackground,
       "peekViewResult.background": colors.highlightBackground,
       "peekViewResult.fileForeground": colors.text,
       "peekViewResult.lineForeground": colors.text,
-      "peekViewResult.matchHighlightBackground": colors.background,
+      "peekViewResult.matchHighlightBackground": colors.transparent,
       "peekViewResult.selectionBackground": colors.background,
-      "peekViewResult.selectionForeground": colors.text,
+      "peekViewResult.selectionForeground": colors.themePrimary,
       "peekViewTitle.background": colors.highlightBackground,
       "peekViewTitleDescription.foreground": colors.secondaryText,
       "peekViewTitleLabel.foreground": colors.themePrimary,
+
+      "debugIcon.breakpointForeground": colors.red,
+      "debugIcon.breakpointDisabledForeground": colors.comment,
+      "debugIcon.breakpointUnverifiedForeground": colors.yellow,
+      "debugIcon.breakpointCurrentStackframeForeground": colors.yellow,
+      "debugIcon.breakpointStackframeForeground": colors.comment,
+
+      "debugIcon.startForeground": colors.green,
+      "debugIcon.continueForeground": colors.yellow,
+      "debugIcon.disconnectForeground": colors.yellow,
+      "debugIcon.pauseForeground": colors.yellow,
+      "debugIcon.restartForeground": colors.green,
+      "debugIcon.stepBackForeground": colors.yellow,
+      "debugIcon.stepIntoForeground": colors.yellow,
+      "debugIcon.stepOutForeground": colors.yellow,
+      "debugIcon.stepOverForeground": colors.yellow,
+      "debugIcon.stopForeground": colors.red,
+      "debugToolBar.background": colors.background,
+      // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
+      "debugExceptionWidget.background": colors.background,
+      "debugExceptionWidget.border": colors.themePrimary,
+      "debugConsole.infoForeground": colors.text,
+      "debugConsole.warningForeground": colors.yellow,
+      "debugConsole.errorForeground": colors.red,
+      "debugConsole.sourceForeground": colors.themePrimary,
+      "debugConsoleInputIcon.foreground": colors.cyan,
 
       "gitDecoration.modifiedResourceForeground": colors.yellow, // Color for modified git resources.
       "gitDecoration.deletedResourceForeground": colors.red, // Color for deleted git resources.
@@ -163,7 +196,29 @@ function getTheme() {
       "textLink.foreground": colors.magenta,
       "textPreformat.foreground": colors.themePrimary,
 
+      "merge.border": colors.transparent,
+      "merge.commonContentBackground": originColors.brightBlack.setAlpha(0.2).toHex8String(),
+      "merge.commonHeaderBackground": originColors.brightBlack.toHex8String(),
+      "merge.currentContentBackground": originColors.green.setAlpha(0.2).toHex8String(),
+      "merge.currentHeaderBackground": originColors.green.toHex8String(),
+      "merge.incomingContentBackground": originColors.blue.setAlpha(0.2).toHex8String(),
+      "merge.incomingHeaderBackground": originColors.blue.toHex8String(),
+
+      "diffEditor.insertedTextBackground": originColors.green.setAlpha(0.2).toHex8String(),
+      "diffEditor.removedTextBackground": originColors.red.setAlpha(0.2).toHex8String(),
+      "diffEditor.border": colors.highlightBackground,
+      "diffEditorOverview.insertedForeground": originColors.green.setAlpha(0.5).toHex8String(),
+      "diffEditorOverview.removedForeground": originColors.red.setAlpha(0.5).toHex8String(),
+
       "settings.modifiedItemIndicator": colors.themePrimary,
+
+      "editorBracketHighlight.foreground1": colors.text,
+      "editorBracketHighlight.foreground2": colors.yellow,
+      "editorBracketHighlight.foreground3": colors.blue,
+      "editorBracketHighlight.foreground4": colors.text,
+      "editorBracketHighlight.foreground5": colors.yellow,
+      "editorBracketHighlight.foreground5": colors.blue,
+      
     },
     tokenColors: [
       {
@@ -678,7 +733,6 @@ function getTheme() {
         ],
         settings: {
           fontStyle: "underline",
-          foreground: colors.keyword,
         }
       },
       {
@@ -829,6 +883,17 @@ function getTheme() {
         ],
         settings: {
           foreground: colors.text,
+        }
+      },
+      {
+        name: "[CSS] - Punctuation",
+        scope: [
+          "meta.selector.css punctuation",
+          "keyword.control.at-rule.media.css punctuation",
+          "meta.at-rule.media.header.css keyword.control",
+        ],
+        settings: {
+          foreground: colors.red,
         }
       }
     ]
