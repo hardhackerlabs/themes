@@ -1,5 +1,5 @@
 {
-  "name": "HardHacker Theme",
+  "name": "Hard Hacker",
   "semanticHighlighting": true,
   "colors": {
     "focusBorder": "#00000000",
@@ -180,9 +180,9 @@
     "settings.modifiedItemIndicator": "#e965a5ff",
     "editorBracketHighlight.foreground1": "#eee9fcff",
     "editorBracketHighlight.foreground2": "#ebde76ff",
-    "editorBracketHighlight.foreground3": "#b1baf4ff",
+    "editorBracketHighlight.foreground3": "#e965a5ff",
     "editorBracketHighlight.foreground4": "#eee9fcff",
-    "editorBracketHighlight.foreground5": "#b1baf4ff"
+    "editorBracketHighlight.foreground5": "#e965a5ff"
   },
   "tokenColors": [
     {
@@ -229,6 +229,7 @@
       "name": "Keyword",
       "scope": [
         "keyword",
+        "keyword.control",
         "keyword.other"
       ],
       "settings": {
@@ -249,7 +250,6 @@
     {
       "name": "Operator, Misc",
       "scope": [
-        "keyword.control",
         "constant.other.color",
         "punctuation",
         "meta.tag",
@@ -858,6 +858,16 @@
       ],
       "settings": {
         "foreground": "#e965a5ff"
+      }
+    },
+    {
+      "name": "[JS] - Storage.type",
+      "scope": [
+        "source.js storage.type",
+        "source.js storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#b1baf4ff"
       }
     }
   ]

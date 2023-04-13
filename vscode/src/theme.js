@@ -1,8 +1,8 @@
-const {originColors, colors} = require('./colors');
+function getTheme(name, colorConfig) {
+  const { originColors, colors } = colorConfig;
 
-function getTheme() {
   return {
-    name: "HardHacker Theme",
+    name,
     semanticHighlighting: true,
     colors: {
       "focusBorder": colors.transparent,
@@ -214,10 +214,10 @@ function getTheme() {
 
       "editorBracketHighlight.foreground1": colors.text,
       "editorBracketHighlight.foreground2": colors.yellow,
-      "editorBracketHighlight.foreground3": colors.blue,
+      "editorBracketHighlight.foreground3": colors.red,
       "editorBracketHighlight.foreground4": colors.text,
       "editorBracketHighlight.foreground5": colors.yellow,
-      "editorBracketHighlight.foreground5": colors.blue,
+      "editorBracketHighlight.foreground5": colors.red,
       
     },
     tokenColors: [
@@ -265,6 +265,7 @@ function getTheme() {
         name: "Keyword",
         scope: [
           "keyword",
+          "keyword.control",
           "keyword.other",
         ],
         settings: {
@@ -285,7 +286,6 @@ function getTheme() {
       {
         name: "Operator, Misc",
         scope: [
-          "keyword.control",
           "constant.other.color",
           "punctuation",
           "meta.tag",
@@ -894,6 +894,16 @@ function getTheme() {
         ],
         settings: {
           foreground: colors.red,
+        }
+      },
+      {
+        name: "[JS] - Storage.type",
+        scope: [
+          "source.js storage.type",
+          "source.js storage.modifier",
+        ],
+        settings: {
+          foreground: colors.keyword,
         }
       }
     ]

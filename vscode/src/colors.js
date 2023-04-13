@@ -1,29 +1,49 @@
 const tinycolor = require('tinycolor2');
 const _ = require('lodash');
 
-const originColors = {
-  black: tinycolor("#282433"),
-  brightBlack: tinycolor("#655980"),
-  red: tinycolor("#FF4FA4"),
-  // green: tinycolor("#AAFF7D"), // not color blind safe
-  green: tinycolor("#A8FF9B"), // color blind safe, avoid conflict with yellow
-  yellow: tinycolor("#FFED63"),
-  blue: tinycolor("#A6B2FF"),
-  magenta: tinycolor("#EC82FF"),
-  cyan: tinycolor("#A8FFFE"),
-  white: tinycolor("#ECE6FF"),
-  orange: tinycolor("#FF6F57"),
-};
+function getColors(painter) {
+  const originColors = _.mapValues({
+    black: tinycolor("#282433"),
+    brightBlack: tinycolor("#655980"),
+    red: tinycolor("#FF4FA4"),
+    // green: tinycolor("#AAFF7D"), // not color blind safe
+    green: tinycolor("#A8FF9B"), // color blind safe, avoid conflict with yellow
+    yellow: tinycolor("#FFED63"),
+    blue: tinycolor("#A6B2FF"),
+    magenta: tinycolor("#EC82FF"),
+    cyan: tinycolor("#A8FFFE"),
+    white: tinycolor("#ECE6FF"),
+    orange: tinycolor("#FF6F57"),
+  }, painter);
+  
+  let colors = _.mapValues(originColors, color => {
+    return color.toHex8String();
+  });
+  
+  colors = Object.assign(colors, {
+    transparent: "#00000000",
+  
+    background: colors.black,
+    highlightBackground: originColors.black.lighten(10).toHex8String(),
+    text: colors.white,
+    string: colors.green,
+    number: colors.yellow,
+    method: colors.red,
+    keyword: colors.blue,
+    operator: colors.white,
+    class: colors.cyan,
+    variable: colors.magenta,
+    secondaryText: originColors.white.setAlpha(0.4).toHex8String(),
+    comment: originColors.white.setAlpha(0.4).toHex8String(),
+    highlight: colors.red,
+    themePrimary: colors.red,
+  });
 
-let colors = _.mapValues(originColors, (color, name) => {
-  if (name == 'black' || name == 'brightBlack') {
-  } else {
-    color.desaturate(25);
-  }
-  return color.toHex8String();
-});
+  return { originColors, colors };
+}
 
-// let colors = {
+module.exports = getColors;
+
 //   // hard hacker dog logo
 //   // black: "#1D1F2B",
 //   // brightBlack: "#301A26",
@@ -67,26 +87,3 @@ let colors = _.mapValues(originColors, (color, name) => {
 //   // cyan: "#5882BE",
 //   // white: "#C3C5C8",
 //   // orange: "#FF6F57",
-
-// };
-
-colors = Object.assign(colors, {
-  transparent: "#00000000",
-
-  background: colors.black,
-  highlightBackground: originColors.black.lighten(10).toHex8String(),
-  text: colors.white,
-  string: colors.green,
-  number: colors.yellow,
-  method: colors.red,
-  keyword: colors.blue,
-  operator: colors.white,
-  class: colors.cyan,
-  variable: colors.magenta,
-  secondaryText: originColors.white.setAlpha(0.4).toHex8String(),
-  comment: originColors.white.setAlpha(0.4).toHex8String(),
-  highlight: colors.red,
-  themePrimary: colors.red,
-});
-
-module.exports = {originColors, colors};

@@ -2,6 +2,10 @@
   "name": "hard-hacker-theme",
   "displayName": "HardHackerTheme",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hardhackerlabs/themes.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.77.0"
@@ -17,9 +21,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "HardHacker Theme",
+        "label": "Hard Hacker",
         "uiTheme": "vs-dark",
-        "path": "./themes/HardHacker Theme-color-theme.json"
+        "path": "./themes/normal.json"
+      },
+      {
+        "label": "Hard Hacker Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darker.json"
       }
     ]
   },
