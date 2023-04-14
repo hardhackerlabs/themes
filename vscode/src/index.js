@@ -13,8 +13,7 @@ const normalTheme = getTheme('Hard Hacker', getColors((color, name) => {
   return color;
 }));
 
-fs.writeFile('./themes/normal.json', JSON.stringify(normalTheme, null, 2))
-  .catch(() => process.exit(1));
+fs.writeFile('./themes/normal.json', JSON.stringify(normalTheme, null, 2)).catch(() => process.exit(1));
 
 const darkerTheme = getTheme('Hard Hacker Darker', getColors((color, name) => {
   switch (name) {
@@ -28,6 +27,4 @@ const darkerTheme = getTheme('Hard Hacker Darker', getColors((color, name) => {
   return color;
 }));
 
-fs.writeFile('./themes/darker.json', JSON.stringify(darkerTheme, null, 2))
-  .catch(() => process.exit(1));
-  
+fs.writeFile('./themes/darker.json', JSON.stringify(darkerTheme, null, 2)).catch(() => process.exit(1));
