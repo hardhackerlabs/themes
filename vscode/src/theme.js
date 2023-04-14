@@ -63,7 +63,7 @@ function getTheme(name, colorConfig) {
       "terminal.ansiBrightBlue": colors.blue,
       "terminal.ansiBrightCyan": colors.cyan,
       "terminal.ansiBrightGreen": colors.green,
-      "terminal.ansiBrightMagenta": colors.magenta,
+      "terminal.ansiBrightMagenta": colors.purple,
       "terminal.ansiBrightRed": colors.red,
       "terminal.ansiBrightWhite": colors.white,
       "terminal.ansiBrightYellow": colors.yellow,
@@ -71,7 +71,7 @@ function getTheme(name, colorConfig) {
       "terminal.ansiBlue": colors.blue,
       "terminal.ansiCyan": colors.cyan,
       "terminal.ansiGreen": colors.green,
-      "terminal.ansiMagenta": colors.magenta,
+      "terminal.ansiMagenta": colors.purple,
       "terminal.ansiRed": colors.red,
       "terminal.ansiWhite": colors.white,
       "terminal.ansiYellow": colors.yellow,
@@ -127,8 +127,8 @@ function getTheme(name, colorConfig) {
       "editorSuggestWidget.focusHighlightForeground": colors.themePrimary,
       "editorSuggestWidget.selectedBackground": colors.brightBlack,
       "editorSuggestWidget.selectedForeground": colors.text,
-      "editorLink.activeForeground": colors.magenta,
-      "editorCodeLens.foreground": originColors.magenta.setAlpha(0.3).toHex8String(),
+      "editorLink.activeForeground": colors.purple,
+      "editorCodeLens.foreground": originColors.purple.setAlpha(0.3).toHex8String(),
 
       "pickerGroup.border": colors.themePrimary,
 		  "pickerGroup.foreground": colors.themePrimary,
@@ -139,12 +139,12 @@ function getTheme(name, colorConfig) {
       "input.placeholderForeground": colors.secondaryText,
       "inputOption.activeBorder": colors.themePrimary,
       "inputValidation.errorBackground": colors.background,
-      "inputValidation.errorBorder": colors.magenta,
+      "inputValidation.errorBorder": colors.purple,
       "inputValidation.infoBackground": colors.background,
       "inputValidation.infoBorder": colors.background,
       "inputValidation.warningBackground": colors.background,
-      "inputValidation.warningBorder": colors.magenta,
-      "inputOption.activeBackground": colors.magenta,
+      "inputValidation.warningBorder": colors.purple,
+      "inputOption.activeBackground": colors.purple,
 
       "peekView.border": colors.themePrimary,
       "peekViewEditor.background": colors.background,
@@ -192,8 +192,8 @@ function getTheme(name, colorConfig) {
       "gitDecoration.ignoredResourceForeground": colors.secondaryText, // Color for ignored git resources.
       "gitDecoration.conflictingResourceForeground": colors.orange, // Color for conflicting git resources.
 
-      "textLink.activeForeground": colors.magenta,
-      "textLink.foreground": colors.magenta,
+      "textLink.activeForeground": colors.purple,
+      "textLink.foreground": colors.purple,
       "textPreformat.foreground": colors.themePrimary,
 
       "merge.border": colors.transparent,
@@ -280,7 +280,7 @@ function getTheme(name, colorConfig) {
           "storage.control",
         ],
         settings: {
-          foreground: colors.magenta,
+          foreground: colors.purple,
         }
       },
       {
@@ -576,7 +576,7 @@ function getTheme(name, colorConfig) {
           "source.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         settings: {
-          foreground: colors.magenta,
+          foreground: colors.purple,
         }
       },
       {
@@ -741,7 +741,7 @@ function getTheme(name, colorConfig) {
           "markup.quote punctuation.definition.blockquote.markdown"
         ],
         settings: {
-          foreground: colors.magenta,
+          foreground: colors.purple,
         }
       },
       {
@@ -751,7 +751,7 @@ function getTheme(name, colorConfig) {
         ],
         settings: {
           fontStyle: "italic",
-          foreground: colors.magenta,
+          foreground: colors.purple,
         }
       },
       {
