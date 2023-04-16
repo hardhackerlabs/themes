@@ -12,26 +12,25 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 * Provides high-contrast options
 
 **Color Palette:**
-| Palette       | Hex         |
-| ------------- | ----------- |
-| Background    | `#282433`   |
-| Foreground    | `#eee9fc`   |
-| Selection     | `#3f3951`   |
-| Comment       | `#eee9fc66` |
-| Bright Black  | `#655980`   |
-| Cyan          | `#b3f4f3`   |
-| Blue          | `#b1baf4`   |
-| Green         | `#b1f2a7`   |
-| Orange        | `#ea7e6c`   |
-| Purple        | `#e192ef`   |
-| Red           | `#e965a5`   |
-| Yellow        | `#ebde76`   |
+| Palette       | Hex         | Preview                                          |
+| ------------- | ----------- | ------------------------------------------------ |
+| Background    | `#282433`   | ![background](media/colors/background.png)       |
+| Foreground    | `#eee9fc`   | ![foreground](media/colors/foreground.png)       |
+| Selection     | `#3f3951`   | ![selection](media/colors/selection.png)         |
+| Comment       | `#eee9fc66` | ![comment](media/colors/background.png)          |
+| Red           | `#e965a5`   | ![red](media/colors/red.png)                     |
+| Green         | `#b1f2a7`   | ![green](media/colors/green.png)                 |
+| Yellow        | `#ebde76`   | ![yellow](media/colors/yellow.png)               |
+| Blue          | `#b1baf4`   | ![blue](media/colors/blue.png)                   |
+| Purple        | `#e192ef`   | ![purple](media/colors/purple.png)               |
+| Cyan          | `#b3f4f3`   | ![cyan](media/colors/cyan.png)                   |
+| Bright Black  | `#655980`   | ![bright black](media/colors/bright%20black.png) |
 
 **Color-blind safe:**
-![Color-blind safe](res/color_blind_safe.png)
+![Color-blind safe](media/foundamental/color_blind_safe.png)
 
 **Enough contrast(normal theme):**
-![Enough contrast](res/enough_contrast.png)
+![Enough contrast](media/foundamental/enough_contrast.png)
 
 
 **Screenshot:**
