@@ -1,3 +1,10 @@
+<p align="center">
+  <a href="https://podcasts.apple.com/au/podcast/%E7%A1%AC%E5%9C%B0%E9%AA%87%E5%AE%A2/id1678465783" target="_blank" rel="noopener noreferrer">
+    <img width="180" src="media/logo/logo.png" alt="HardHacker">
+  </a>
+</p>
+<br/>
+
 # Hard Hacker Theme
 
 A visually comfortable dark theme that is suitable for prolonged use. It differs from the typical blueish dark themes and aims to express a unique style with a more futuristic color palette.
@@ -44,3 +51,11 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 * Iterm2
 * Terminal
 * 🚧Building...
+
+**Sponsers**
+* Podcast Hardhacker
+<p>
+  <a href="https://podcasts.apple.com/au/podcast/%E7%A1%AC%E5%9C%B0%E9%AA%87%E5%AE%A2/id1678465783" target="_blank" rel="noopener noreferrer">
+    <img width="280" src="media/sponsers/podcast.png" alt="HardHacker">
+  </a>
+</p>
