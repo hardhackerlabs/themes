@@ -18,6 +18,17 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+		"hardhacker",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#282433",
+		"theme": "dark"
+	},
   "contributes": {
     "themes": [
       {
