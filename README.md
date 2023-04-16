@@ -27,12 +27,18 @@ Color Palette:
 | Red           | `#e965a5`   |
 | Yellow        | `#ebde76`   |
 
+Color-blind safe:
+![Color-blind safe](res/color_blind_safe.png)
+
+Enough contrast(normal theme):
+![Enough contrast](res/enough_contrast.png)
+
 
 Screenshot:
 * Normal
 ![Normal](vscode/screenshots/rust-normal.png)
 * Darker
-![Normal](vscode/screenshots/rust-darker.png)
+![Darker](vscode/screenshots/rust-darker.png)
 
 Support:
 * VSCode
