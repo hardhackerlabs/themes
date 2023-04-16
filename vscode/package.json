@@ -2,6 +2,7 @@
   "name": "hard-hacker-theme",
   "displayName": "HardHackerTheme",
   "description": "",
+  "publisher": "HardHacker",
   "repository": {
     "type": "git",
     "url": "git@github.com:hardhackerlabs/themes.git"
@@ -13,7 +14,9 @@
   "scripts": {
     "start": "nodemon --watch src src/index.js",
     "build": "node src/index.js",
-    "package": "vsce package -o ./hardhacker-theme.vsix"
+    "package": "vsce package -o ./hardhacker-theme.vsix",
+    "vscode:prepublish": "npm run build",
+		"vsce-publish": "vsce publish"
   },
   "categories": [
     "Themes"

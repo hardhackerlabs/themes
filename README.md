@@ -11,22 +11,20 @@ Features:
 * Futuristic
 * Provides high-contrast options
 
-Support:
-* VSCode
-* 🚧Building...
-
----
-
-一个视觉体验舒适的深色主题，适合长时间使用。同时有别于一般的偏蓝色的深色主题，希望通过更具未来干的颜色表现出一些独特的风格。
-
-颜色灵感来自于一些赛博朋克风格的艺术画作，由于赛博朋克的霓虹灯风格并不适合长时间注视，因此降低了颜色的饱和度。
-
-Features:
-* 适合长时间使用
-* 色盲友好
-* 良好的可读性
-* 未来感
-* 提供更高对比度的选择
+Color Palette:
+| Palette      | Hex         |
+| ------------ | ----------- |
+| Background   | `#282433`   |
+| Foreground   | `#eee9fc`   |
+| Comment      | `#eee9fc66` |
+| Bright Black | `#655980`   |
+| Cyan         | `#b3f4f3`   |
+| Blue         | `#b1baf4`   |
+| Green        | `#b1f2a7`   |
+| Orange       | `#ea7e6c`   |
+| Purple       | `#e192ef`   |
+| Red          | `#e965a5`   |
+| Yellow       | `#ebde76`   |
 
 Support:
 * VSCode
