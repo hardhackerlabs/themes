@@ -36,4 +36,6 @@ Screenshot:
 
 Support:
 * VSCode
+* Iterm2
+* Terminal
 * 🚧Building...
