@@ -1,5 +1,6 @@
 # Hard Hacker Theme for VSCode
 
+Features:
 * Suitable for prolonged use
 * Color-blind friendly
 * Good readability
