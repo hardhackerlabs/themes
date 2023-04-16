@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git@github.com:hardhackerlabs/themes.git"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -16,7 +16,7 @@
     "build": "node src/index.js",
     "package": "vsce package -o ./hardhacker-theme.vsix",
     "vscode:prepublish": "npm run build",
-		"vsce-publish": "vsce publish"
+		"vsce-publish": "vsce publish --baseImagesUrl https://github.com/hardhackerlabs/themes/raw/master/vscode/"
   },
   "categories": [
     "Themes"
