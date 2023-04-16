@@ -4,14 +4,14 @@ A visually comfortable dark theme that is suitable for prolonged use. It differs
 
 The color inspiration comes from some cyberpunk-style art works. However, neon color schemes commonly seen in cyberpunk styles are not suitable for prolonged staring, thus the saturation of the colors has been reduced.
 
-Features:
+**Features:**
 * Suitable for prolonged use
 * Color-blind friendly
 * Good readability
 * Futuristic
 * Provides high-contrast options
 
-Color Palette:
+**Color Palette:**
 | Palette       | Hex         |
 | ------------- | ----------- |
 | Background    | `#282433`   |
@@ -27,20 +27,20 @@ Color Palette:
 | Red           | `#e965a5`   |
 | Yellow        | `#ebde76`   |
 
-Color-blind safe:
+**Color-blind safe:**
 ![Color-blind safe](res/color_blind_safe.png)
 
-Enough contrast(normal theme):
+**Enough contrast(normal theme):**
 ![Enough contrast](res/enough_contrast.png)
 
 
-Screenshot:
+**Screenshot:**
 * Normal
 ![Normal](vscode/screenshots/rust-normal.png)
 * Darker
 ![Darker](vscode/screenshots/rust-darker.png)
 
-Support:
+**Support:**
 * VSCode
 * Iterm2
 * Terminal
