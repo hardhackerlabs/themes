@@ -12,19 +12,20 @@ Features:
 * Provides high-contrast options
 
 Color Palette:
-| Palette      | Hex         |
-| ------------ | ----------- |
-| Background   | `#282433`   |
-| Foreground   | `#eee9fc`   |
-| Comment      | `#eee9fc66` |
-| Bright Black | `#655980`   |
-| Cyan         | `#b3f4f3`   |
-| Blue         | `#b1baf4`   |
-| Green        | `#b1f2a7`   |
-| Orange       | `#ea7e6c`   |
-| Purple       | `#e192ef`   |
-| Red          | `#e965a5`   |
-| Yellow       | `#ebde76`   |
+| Palette       | Hex         |
+| ------------- | ----------- |
+| Background    | `#282433`   |
+| Foreground    | `#eee9fc`   |
+| Selection     | `#3f3951`   |
+| Comment       | `#eee9fc66` |
+| Bright Black  | `#655980`   |
+| Cyan          | `#b3f4f3`   |
+| Blue          | `#b1baf4`   |
+| Green         | `#b1f2a7`   |
+| Orange        | `#ea7e6c`   |
+| Purple        | `#e192ef`   |
+| Red           | `#e965a5`   |
+| Yellow        | `#ebde76`   |
 
 
 Screenshot:
