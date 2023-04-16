@@ -56,8 +56,15 @@ function getTheme(name, colorConfig) {
       "statusBarItem.prominentHoverBackground": colors.black,
       // "statusBarItem.remoteForeground": colors.black,
 
-      "editor.selectionBackground": "#FFFFFF0F",
+      "editor.selectionBackground": colors.highlightBackground,
       "editor.wordHighlightBackground": "#FFFFFF1F",
+      "editor.lineHighlightBackground": "#FFFFFF0F",
+      "editor.lineHighlightBorder": colors.transparent,
+      "editor.hoverHighlightBackground": originColors.blue.setAlpha(0.3).toHex8String(),
+      "editor.findMatchBackground": originColors.cyan.setAlpha(0.3).toHex8String(),
+      "editor.findMatchBorder": originColors.cyan.setAlpha(0.8).toHex8String(),
+      "editor.findMatchHighlightBackground": originColors.cyan.setAlpha(0.3).toHex8String(),
+      "editor.findRangeHighlightBackground": originColors.cyan.setAlpha(0.3).toHex8String(),
 
       "terminal.ansiBrightBlack": colors.brightBlack,
       "terminal.ansiBrightBlue": colors.blue,
@@ -144,7 +151,9 @@ function getTheme(name, colorConfig) {
       "inputValidation.infoBorder": colors.background,
       "inputValidation.warningBackground": colors.background,
       "inputValidation.warningBorder": colors.purple,
-      "inputOption.activeBackground": colors.purple,
+      "inputOption.activeBorder": colors.transparent,
+      "inputOption.activeBackground": colors.themePrimary,
+      "inputOption.activeForeground": colors.black,
 
       "peekView.border": colors.themePrimary,
       "peekViewEditor.background": colors.background,
