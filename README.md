@@ -17,13 +17,13 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 
 <details><summary>Color-blind friendly</summary>
 <p>
-<img width="600" src="media/foundamental/color_blind_safe.png" alt="Color Blind">
+<img width="920" src="media/foundamental/color_blind_safe.png" alt="Color Blind">
 </p>
 </details>
 
 <details><summary>Good readability</summary>
 <p>
-<img width="600" src="media/foundamental/enough_contrast.png" alt="Enough Contrast">
+<img width="920" src="media/foundamental/enough_contrast.png" alt="Enough Contrast">
 </p>
 </details>
 
@@ -63,6 +63,6 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 * Podcast Hardhacker
 <p>
   <a href="https://podcasts.apple.com/au/podcast/%E7%A1%AC%E5%9C%B0%E9%AA%87%E5%AE%A2/id1678465783" target="_blank" rel="noopener noreferrer">
-    <img width="420" src="media/sponsers/hardhacker-podcast.png" alt="HardHacker">
+    <img width="620" src="media/sponsers/hardhacker-podcast.png" alt="HardHacker">
   </a>
 </p>
