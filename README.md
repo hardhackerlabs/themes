@@ -24,7 +24,7 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 | Background    | `#282433`   | ![background](media/colors/background.png)       |
 | Foreground    | `#eee9fc`   | ![foreground](media/colors/foreground.png)       |
 | Selection     | `#3f3951`   | ![selection](media/colors/selection.png)         |
-| Comment       | `#777383`   |                                                  |
+| Comment       | `#777383`   | ![comment](media/colors/comment.png)             |
 | Red           | `#e965a5`   | ![red](media/colors/red.png)                     |
 | Green         | `#b1f2a7`   | ![green](media/colors/green.png)                 |
 | Yellow        | `#ebde76`   | ![yellow](media/colors/yellow.png)               |
