@@ -35,8 +35,8 @@ function getColors(painter) {
     operator: colors.white,
     class: colors.cyan,
     variable: colors.purple,
-    secondaryText: originColors.white.setAlpha(0.4).toHex8String(),
-    comment: originColors.white.setAlpha(0.4).toHex8String(),
+    secondaryText: tinycolor.mix(colors.white, colors.black, 60).toHex8String(),
+    comment: tinycolor.mix(colors.white, colors.black, 60).toHex8String(),
     highlight: colors.red,
     themePrimary: colors.red,
   });

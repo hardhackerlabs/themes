@@ -10,14 +10,14 @@
     "titleBar.inactiveForeground": "#eee9fcff",
     "editor.background": "#282433ff",
     "editor.foreground": "#eee9fcff",
-    "editorInlayHint.foreground": "#eee9fc66",
+    "editorInlayHint.foreground": "#777383ff",
     "editorInlayHint.background": "#FFFFFF0F",
     "activityBarBadge.background": "#e965a5ff",
     "activityBarBadge.foreground": "#282433ff",
     "activityBar.background": "#282433ff",
     "activityBar.foreground": "#e965a5ff",
     "activityBar.activeBorder": "#e965a5ff",
-    "activityBar.inactiveForeground": "#eee9fc66",
+    "activityBar.inactiveForeground": "#777383ff",
     "sideBarTitle.foreground": "#eee9fcff",
     "sideBar.background": "#282433ff",
     "sideBar.foreground": "#eee9fcff",
@@ -119,7 +119,7 @@
     "input.background": "#282433ff",
     "input.border": "#e965a5ff",
     "input.foreground": "#eee9fcff",
-    "input.placeholderForeground": "#eee9fc66",
+    "input.placeholderForeground": "#777383ff",
     "inputOption.activeBorder": "#00000000",
     "inputValidation.errorBackground": "#282433ff",
     "inputValidation.errorBorder": "#e192efff",
@@ -140,13 +140,13 @@
     "peekViewResult.selectionBackground": "#282433ff",
     "peekViewResult.selectionForeground": "#e965a5ff",
     "peekViewTitle.background": "#3f3951ff",
-    "peekViewTitleDescription.foreground": "#eee9fc66",
+    "peekViewTitleDescription.foreground": "#777383ff",
     "peekViewTitleLabel.foreground": "#e965a5ff",
     "debugIcon.breakpointForeground": "#e965a5ff",
-    "debugIcon.breakpointDisabledForeground": "#eee9fc66",
+    "debugIcon.breakpointDisabledForeground": "#777383ff",
     "debugIcon.breakpointUnverifiedForeground": "#ebde76ff",
     "debugIcon.breakpointCurrentStackframeForeground": "#ebde76ff",
-    "debugIcon.breakpointStackframeForeground": "#eee9fc66",
+    "debugIcon.breakpointStackframeForeground": "#777383ff",
     "debugIcon.startForeground": "#b1f2a7ff",
     "debugIcon.continueForeground": "#ebde76ff",
     "debugIcon.disconnectForeground": "#ebde76ff",
@@ -168,7 +168,7 @@
     "gitDecoration.modifiedResourceForeground": "#ebde76ff",
     "gitDecoration.deletedResourceForeground": "#e965a5ff",
     "gitDecoration.untrackedResourceForeground": "#b1f2a7ff",
-    "gitDecoration.ignoredResourceForeground": "#eee9fc66",
+    "gitDecoration.ignoredResourceForeground": "#777383ff",
     "gitDecoration.conflictingResourceForeground": "#ea7e6cff",
     "textLink.activeForeground": "#e192efff",
     "textLink.foreground": "#e192efff",
@@ -201,7 +201,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#eee9fc66"
+        "foreground": "#777383ff"
       }
     },
     {
@@ -807,7 +807,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#eee9fc66"
+        "foreground": "#777383ff"
       }
     },
     {
@@ -838,7 +838,7 @@
       "name": "[MARKDOWN] - Color for code block language",
       "scope": "fenced_code.block.language.markdown",
       "settings": {
-        "foreground": "#eee9fc66"
+        "foreground": "#777383ff"
       }
     },
     {
