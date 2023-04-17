@@ -16,7 +16,7 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 * Color-blind friendly
 * Good readability
 * Futuristic
-* Provides high-contrast options
+* Provides high-contrast version
 
 **Color Palette:**
 | Palette       | Hex         | Preview                                          |

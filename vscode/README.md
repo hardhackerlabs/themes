@@ -5,13 +5,13 @@ Features:
 * Color-blind friendly
 * Good readability
 * Futuristic
-* Provides high-contrast options
+* Provides high-contrast version
 
 Screenshots:
-* Javascript normal
-![Javascript normal](screenshots/js-normal.png)
-* Javascript darker
-![Javascript normal](screenshots/js-darker.png)
+* JavaScript normal
+![JavaScript normal](screenshots/js-normal.png)
+* JavaScript darker
+![JavaScript normal](screenshots/js-darker.png)
 * Rust normal
 ![Javascript normal](screenshots/rust-normal.png)
 * Rust darker
