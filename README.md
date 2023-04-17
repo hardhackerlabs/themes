@@ -63,6 +63,6 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 * Podcast Hardhacker
 <p>
   <a href="https://podcasts.apple.com/au/podcast/%E7%A1%AC%E5%9C%B0%E9%AA%87%E5%AE%A2/id1678465783" target="_blank" rel="noopener noreferrer">
-    <img width="280" src="media/sponsers/podcast.png" alt="HardHacker">
+    <img width="420" src="media/sponsers/podcast.png" alt="HardHacker">
   </a>
 </p>
