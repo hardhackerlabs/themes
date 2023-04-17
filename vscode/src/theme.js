@@ -906,10 +906,12 @@ function getTheme(name, colorConfig) {
         }
       },
       {
-        name: "[JS] - Storage.type",
+        name: "[JS, TS] - Storage.type",
         scope: [
           "source.js storage.type",
+          "source.ts storage.type",
           "source.js storage.modifier",
+          "source.ts storage.modifier",
         ],
         settings: {
           foreground: colors.keyword,

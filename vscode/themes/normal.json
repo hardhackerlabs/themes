@@ -869,10 +869,12 @@
       }
     },
     {
-      "name": "[JS] - Storage.type",
+      "name": "[JS, TS] - Storage.type",
       "scope": [
         "source.js storage.type",
-        "source.js storage.modifier"
+        "source.ts storage.type",
+        "source.js storage.modifier",
+        "source.ts storage.modifier"
       ],
       "settings": {
         "foreground": "#b1baf4ff"
