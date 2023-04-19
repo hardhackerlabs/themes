@@ -125,9 +125,9 @@ function getTheme(name, colorConfig) {
       "keybindingLabel.bottomBorder": colors.themePrimary,
 
       "scrollbar.shadow": colors.brightBlack,
-      "scrollbarSlider.background": colors.highlightBackground,
-      "scrollbarSlider.hoverBackground": colors.brightBlack,
-      "scrollbarSlider.activeBackground": colors.themePrimary,
+      "scrollbarSlider.background": originColors.black.setAlpha(0.5).toHex8String(),
+      "scrollbarSlider.hoverBackground": originColors.brightBlack.setAlpha(0.5).toHex8String(),
+      "scrollbarSlider.activeBackground": originColors.purple.setAlpha(0.3).toHex8String(),
 
       "widget.shadow": "#00000060",
       "editorWidget.background": colors.background,

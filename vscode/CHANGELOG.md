@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.1.2]
+
+- Scrollbar now uses colors with opacity to allow information behind to show through
+
 ## [0.1.1]
 
 - Optimize color display of explorer
