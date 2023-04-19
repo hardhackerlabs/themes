@@ -8,11 +8,7 @@
 * Provides high-contrast version
 
 **Screenshots:**
-* JavaScript normal
-![JavaScript normal](screenshots/js-normal.png)
-* JavaScript darker
-![JavaScript normal](screenshots/js-darker.png)
-* Rust normal
-![Javascript normal](screenshots/rust-normal.png)
-* Rust darker
-![Javascript normal](screenshots/rust-darker.png)
+* Normal
+![Normal](screenshots/normal.png)
+* Darker
+![Darker](screenshots/darker.png)

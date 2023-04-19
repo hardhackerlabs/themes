@@ -49,9 +49,9 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 
 ## Screenshot:
 #### Normal
-![Normal](vscode/screenshots/rust-normal.png)
+![Normal](vscode/screenshots/normal.png)
 #### Darker
-![Darker](vscode/screenshots/rust-darker.png)
+![Darker](vscode/screenshots/darker.png)
 
 ## Supports:
 * VSCode
