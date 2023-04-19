@@ -11,7 +11,7 @@ function getColors(painter) {
     blue: tinycolor("#b1baf4"),
     purple: tinycolor("#e192ef"),
     cyan: tinycolor("#b3f4f3"),
-    orange: tinycolor("#ea7e6c"),
+    orange: tinycolor("#ea7e6c"), // for git conflict status
     white: tinycolor("#eee9fc"),
   }, painter);
   

@@ -1,13 +1,13 @@
 # Hard Hacker Theme for VSCode
 
-Features:
+**Features:**
 * Suitable for prolonged use
 * Color-blind friendly
 * Good readability
 * Futuristic
 * Provides high-contrast version
 
-Screenshots:
+**Screenshots:**
 * JavaScript normal
 ![JavaScript normal](screenshots/js-normal.png)
 * JavaScript darker
