@@ -18,7 +18,7 @@ function getColors(painter) {
   console.log('Origin colors:');
   let colors = _.mapValues(originColors, (color, name) => {
     const colorStr = color.toHex8String();
-    console.log(`  ${name}: "${colorStr}"`);
+    console.log(`  ${name}: "${colorStr}" - ${color.toHslString()}`);
     return colorStr;
   });
   

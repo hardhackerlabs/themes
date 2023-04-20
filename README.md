@@ -47,11 +47,8 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 | Cyan          | `#b3f4f3`   | ![cyan](media/colors/cyan.png)                   |
 | Bright Black  | `#655980`   | ![bright black](media/colors/bright%20black.png) |
 
-## Screenshot:
-#### Normal
-![Normal](vscode/screenshots/normal.png)
-#### Darker
-![Darker](vscode/screenshots/darker.png)
+## Preview:
+![preview](media/preview/preview.png)
 
 ## Supports:
 * VSCode

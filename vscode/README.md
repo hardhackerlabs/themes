@@ -1,5 +1,8 @@
 # Hard Hacker Theme for VSCode
 
+**Screenshots:**
+![preview](screenshots/preview.png)
+
 **Features:**
 * Suitable for prolonged use
 * Color-blind friendly
@@ -7,8 +10,6 @@
 * Futuristic
 * Provides high-contrast version
 
-**Screenshots:**
-* Normal
-![Normal](screenshots/normal.png)
-* Darker
-![Darker](screenshots/darker.png)
+**Also supports:**
+* iTerm2
+* macOS Terminal
