@@ -1,0 +1,3 @@
+[submodule "themes/vscode"]
+	path = themes/vscode
+	url = https://github.com/hardhackerlabs/theme-vscode
