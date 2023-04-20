@@ -4,3 +4,6 @@
 [submodule "themes/windows-terminal"]
 	path = themes/windows-terminal
 	url = https://github.com/hardhackerlabs/theme-windows-terminal
+[submodule "themes/lsd"]
+	path = themes/lsd
+	url = https://github.com/hardhackerlabs/theme-lsd
