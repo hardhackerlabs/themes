@@ -13,3 +13,6 @@
 [submodule "themes/macos-terminal"]
 	path = themes/macos-terminal
 	url = https://github.com/hardhackerlabs/theme-macos-terminal
+[submodule "themes/vim"]
+	path = themes/vim
+	url = https://github.com/hardhackerlabs/theme-vim
