@@ -52,7 +52,8 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 
 ## Supports:
 * VSCode
-* Iterm2
+* vim
+* iTerm2
 * macOS Terminal
 * windows Terminal
 * LSD: a rewrite of GNU `ls`
