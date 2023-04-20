@@ -1,6 +1,5 @@
 # Hard Hacker Theme for VSCode
 
-**Screenshots:**
 ![preview](screenshots/preview.png)
 
 **Features:**
@@ -13,3 +12,5 @@
 **Also supports:**
 * iTerm2
 * macOS Terminal
+* windows Terminal
+* 🚧Continuously building
