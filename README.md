@@ -16,22 +16,22 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 
 ## Features:
 
-#### 🎉Suitable for prolonged use
+#### 🎉 Suitable for prolonged use
 
-<details><summary>❤️Color-blind friendly</summary>
+<details><summary>❤️ Color-blind friendly</summary>
 <p>
 <img width="920" src="media/foundamental/color_blind_safe.png" alt="Color Blind">
 </p>
 </details>
 
-<details><summary>👀Good readability</summary>
+<details><summary>👀 Good readability</summary>
 <p>
 <img width="920" src="media/foundamental/enough_contrast.png" alt="Enough Contrast">
 </p>
 </details>
 
-#### 🛸Futuristic
-#### 🚀Continuously increasing support for editors and tools
+#### 🛸 Futuristic
+#### 🚀 Continuously increasing support for editors and tools
 
 
 ## Color Palette:
@@ -56,7 +56,7 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 * macOS Terminal
 * windows Terminal
 * LSD: a rewrite of GNU `ls`
-* 🚧Building...
+* 🚧 Building...
 
 ## Sponsers
 * Podcast HardHacker
