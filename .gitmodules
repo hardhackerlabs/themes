@@ -1,3 +1,6 @@
 [submodule "themes/vscode"]
 	path = themes/vscode
 	url = https://github.com/hardhackerlabs/theme-vscode
+[submodule "themes/windows-terminal"]
+	path = themes/windows-terminal
+	url = https://github.com/hardhackerlabs/theme-windows-terminal
