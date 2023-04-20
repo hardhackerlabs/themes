@@ -1,11 +1,12 @@
 # Hard Hacker Theme for Windows Terminal
 
+![Windows Terminal](screenshots/preview.png)
+
 ## Features:
 * Suitable for prolonged use
 * Color-blind friendly
 * Good readability
 * Futuristic
-* Provides high-contrast options
 
 ## Install
 
@@ -25,8 +26,3 @@ and then change `profiles.colorScheme` to `Hardhacker`。
         }
 ]
 ```
-
-
-
-## Screenshots:
-![Windows Terminal](screenshots/windows%20terminal.png)
