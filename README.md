@@ -3,32 +3,35 @@
     <img width="180" src="media/logo/logo.png" alt="HardHacker">
   </a>
 </p>
-<br/>
 
-# Hard Hacker Theme
+<h1 align="center">
+  HardHacker Themes
+</h1>
 
 A visually comfortable dark theme that is suitable for prolonged use. It differs from the typical blueish dark themes and aims to express a unique style with a more futuristic color palette.
 
 The color inspiration comes from some cyberpunk-style art works. However, neon color schemes commonly seen in cyberpunk styles are not suitable for prolonged staring, thus the saturation of the colors has been reduced.
 
+![preview](media/preview/preview.png)
+
 ## Features:
 
-#### Suitable for prolonged use
+#### 🎉Suitable for prolonged use
 
-<details><summary>Color-blind friendly</summary>
+<details><summary>❤️Color-blind friendly</summary>
 <p>
 <img width="920" src="media/foundamental/color_blind_safe.png" alt="Color Blind">
 </p>
 </details>
 
-<details><summary>Good readability</summary>
+<details><summary>👀Good readability</summary>
 <p>
 <img width="920" src="media/foundamental/enough_contrast.png" alt="Enough Contrast">
 </p>
 </details>
 
-#### Futuristic
-#### Provides high-contrast options
+#### 🛸Futuristic
+#### 🚀Continuously increasing support for editors and tools
 
 
 ## Color Palette:
@@ -47,18 +50,16 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 | Cyan          | `#b3f4f3`   | ![cyan](media/colors/cyan.png)                   |
 | Bright Black  | `#655980`   | ![bright black](media/colors/bright%20black.png) |
 
-## Preview:
-![preview](media/preview/preview.png)
-
 ## Supports:
 * VSCode
 * Iterm2
 * macOS Terminal
+* windows Terminal
 * LSD: a rewrite of GNU `ls`
 * 🚧Building...
 
 ## Sponsers
-* Podcast Hardhacker
+* Podcast HardHacker
 <p>
   <a href="https://podcasts.apple.com/au/podcast/%E7%A1%AC%E5%9C%B0%E9%AA%87%E5%AE%A2/id1678465783" target="_blank" rel="noopener noreferrer">
     <img width="620" src="media/sponsers/hardhacker-podcast.png" alt="HardHacker">
