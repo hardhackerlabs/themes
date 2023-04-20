@@ -1,4 +1,4 @@
-"
+" Hard hacker theme for Vim
 "
 scriptencoding utf8
 highlight clear
@@ -16,57 +16,69 @@ endif
 
 " Palette
 "
-let g:background = "#282433"
-let g:foreground = "#eee9fc"
-let g:selection = "#3f3951"
-let g:comment = "#777383"
-let g:red = "#e965a5"
-let g:green = "#b1f2a7"
-let g:yellow = "#ebde76"
-let g:blue = "#b1baf4"
-let g:purple = "#e192ef"
-let g:cyan = "#b3f4f3"
-let g:bright_black = "#b3f4f3"
+let g:bg            = "#282433"
+let g:fg            = "#eee9fc"
+let g:selection     = "#3f3951"
+let g:comment       = "#777383"
+let g:red           = "#e965a5"
+let g:green         = "#b1f2a7"
+let g:yellow        = "#ebde76"
+let g:blue          = "#b1baf4"
+let g:purple        = "#e192ef"
+let g:cyan          = "#b3f4f3"
+let g:bright_black  = "#b3f4f3"
+
+let g:bg256         = "235"
+let g:fg256         = "255"
+let g:selection256  = "238"
+let g:comment256    = "243"
+let g:red256        = "205" "212
+let g:green256      = "157"
+let g:yellow256     = "227"
+let g:blue256       = "153"
+let g:purple256     = "219"
+let g:cyan256       = "123"
 
 " Set environment style
 "
-execute 'hi Cursor ctermfg=16 ctermbg=145 cterm=NONE guifg='.g:foreground.' guibg='.g:red.' gui=NONE'
-execute 'hi CursorLine ctermfg=NONE ctermbg=23 cterm=NONE guifg='.g:red.' guibg='.g:selection.' gui=NONE'
-execute 'hi CursorColumn ctermfg=NONE ctermbg=23 cterm=NONE guifg=NONE guibg='.g:background.' gui=NONE'
-execute 'hi ColorColumn ctermfg=NONE ctermbg=23 cterm=NONE guifg=NONE guibg='.g:background.' gui=NONE'
-execute 'hi LineNr ctermfg=102 ctermbg=23 cterm=NONE guifg=#84898c guibg='.g:background.' gui=NONE'
-execute 'hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg='.g:purple.' gui=NONE'
-execute 'hi Directory ctermfg=68 ctermbg=NONE cterm=NONE guifg='.g:blue.' guibg=NONE gui=NONE'
-execute 'hi IncSearch ctermfg=16 ctermbg=107 cterm=NONE guifg='.g:background.' guibg='.g:yellow.' gui=NONE'
-execute 'hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg='.g:background.' guibg='.g:yellow.' gui=underline'
-execute 'hi VertSplit ctermfg=59 ctermbg=59 cterm=NONE guifg='.g:selection.' guibg='.g:background.' gui=NONE'
-execute 'hi MatchParen ctermfg=180 ctermbg=NONE cterm=underline guifg=#dda790 guibg=NONE gui=underline'
-execute 'hi StatusLine ctermfg=231 ctermbg=59 cterm=bold guifg='.g:foreground.' guibg='.g:selection.' gui=bold'
-execute 'hi StatusLineNC ctermfg=231 ctermbg=59 cterm=NONE guifg='.g:foreground.' guibg='.g:background.' gui=NONE'
-execute 'hi Pmenu ctermfg=153 ctermbg=NONE cterm=NONE guifg='.g:foreground.' guibg='.g:selection.' gui=NONE'
-execute 'hi PmenuSel ctermfg=NONE ctermbg=59 cterm=NONE guifg='.g:foreground.' guibg='.g:purple.' gui=NONE'
-execute 'hi Folded ctermfg=247 ctermbg=16 cterm=NONE guifg='.g:foreground.' guibg='.g:background.' gui=NONE'
+execute 'hi Cursor ctermfg='.g:fg256.' ctermbg='.g:red256.' cterm=NONE guifg='.g:fg.' guibg='.g:red.' gui=NONE'
+execute 'hi CursorLine ctermfg='.g:red256.' ctermbg='.g:selection256.' cterm=NONE guifg='.g:red.' guibg='.g:selection.' gui=NONE'
 
-execute 'hi Normal ctermfg=231 ctermbg=16 cterm=NONE guifg='.g:foreground.' guibg='.g:background.' gui=NONE'
-execute 'hi EndOfBuffer ctermfg=231 ctermbg=16 cterm=NONE guifg='.g:selection.' guibg='.g:background.' gui=NONE'
+execute 'hi CursorColumn ctermfg=NONE ctermbg='.g:bg256.' cterm=NONE guifg=NONE guibg='.g:bg.' gui=NONE'
+hi! link ColorColumn CursorColumn
+
+execute 'hi LineNr ctermfg=102 ctermbg='.g:bg256.' cterm=NONE guifg=#84898c guibg='.g:bg.' gui=NONE'
+execute 'hi Visual ctermfg=NONE ctermbg='.g:purple256.' cterm=NONE guifg=NONE guibg='.g:purple.' gui=NONE'
+execute 'hi Directory ctermfg='.g:blue256.' ctermbg=NONE cterm=NONE guifg='.g:blue.' guibg=NONE gui=NONE'
+execute 'hi IncSearch ctermfg='.g:bg256.' ctermbg='.g:yellow256.' cterm=NONE guifg='.g:bg.' guibg='.g:yellow.' gui=NONE'
+execute 'hi Search ctermfg='.g:bg256.' ctermbg='.g:yellow256.' cterm=underline guifg='.g:bg.' guibg='.g:yellow.' gui=underline'
+execute 'hi VertSplit ctermfg='.g:selection256.' ctermbg='.g:bg256.' cterm=NONE guifg='.g:selection.' guibg='.g:bg.' gui=NONE'
+execute 'hi MatchParen ctermfg=180 ctermbg=NONE cterm=underline guifg=#dda790 guibg=NONE gui=underline'
+execute 'hi StatusLine ctermfg='.g:fg256.' ctermbg='.g:selection256.' cterm=bold guifg='.g:fg.' guibg='.g:selection.' gui=bold'
+execute 'hi StatusLineNC ctermfg='.g:fg256.' ctermbg='.g:bg256.' cterm=NONE guifg='.g:fg.' guibg='.g:bg.' gui=NONE'
+execute 'hi Pmenu ctermfg='.g:fg256.' ctermbg='.g:selection256.' cterm=NONE guifg='.g:fg.' guibg='.g:selection.' gui=NONE'
+execute 'hi PmenuSel ctermfg='.g:fg256.' ctermbg='.g:purple256.' cterm=NONE guifg='.g:fg.' guibg='.g:purple.' gui=NONE'
+execute 'hi Folded ctermfg='.g:fg256.' ctermbg='.g:bg256.' cterm=NONE guifg='.g:fg.' guibg='.g:bg.' gui=NONE'
+
+execute 'hi Normal ctermfg='.g:fg256.' ctermbg='.g:bg256.' cterm=NONE guifg='.g:fg.' guibg='.g:bg.' gui=NONE'
+execute 'hi EndOfBuffer ctermfg='.g:selection256.' ctermbg='.g:bg256.' cterm=NONE guifg='.g:selection.' guibg='.g:bg.' gui=NONE'
 
 " Set text highlight
 "
-execute 'hi HH_Red ctermfg=180 ctermbg=NONE cterm=NONE guifg='.g:red.' guibg=NONE gui=NONE'
-execute 'hi HH_Purple ctermfg=68 ctermbg=NONE cterm=NONE guifg='.g:purple.' guibg=NONE gui=NONE'
-execute 'hi HH_Blue ctermfg=68 ctermbg=NONE cterm=NONE guifg='.g:blue.' guibg=NONE gui=NONE'
-execute 'hi HH_Yellow ctermfg=68 ctermbg=NONE cterm=NONE guifg='.g:yellow.' guibg=NONE gui=NONE'
-execute 'hi HH_Cyan ctermfg=68 ctermbg=NONE cterm=NONE guifg='.g:cyan.' guibg=NONE gui=NONE'
-execute 'hi HH_Green ctermfg=68 ctermbg=NONE cterm=NONE guifg='.g:green.' guibg=NONE gui=NONE'
-execute 'hi HH_FG ctermfg=68 ctermbg=NONE cterm=NONE guifg='.g:foreground.' guibg=NONE gui=NONE'
+execute 'hi HH_Red ctermfg='.g:red256.' ctermbg=NONE cterm=NONE guifg='.g:red.' guibg=NONE gui=NONE'
+execute 'hi HH_Purple ctermfg='.g:purple256.' ctermbg=NONE cterm=NONE guifg='.g:purple.' guibg=NONE gui=NONE'
+execute 'hi HH_Blue ctermfg='.g:blue256.' ctermbg=NONE cterm=NONE guifg='.g:blue.' guibg=NONE gui=NONE'
+execute 'hi HH_Yellow ctermfg='.g:yellow256.' ctermbg=NONE cterm=NONE guifg='.g:yellow.' guibg=NONE gui=NONE'
+execute 'hi HH_Cyan ctermfg='.g:cyan256.' ctermbg=NONE cterm=NONE guifg='.g:cyan.' guibg=NONE gui=NONE'
+execute 'hi HH_Green ctermfg='.g:green256.' ctermbg=NONE cterm=NONE guifg='.g:green.' guibg=NONE gui=NONE'
+execute 'hi HH_FG ctermfg='.g:fg256.' ctermbg=NONE cterm=NONE guifg='.g:fg.' guibg=NONE gui=NONE'
 
-
-execute 'hi Comment ctermfg=247 ctermbg=NONE cterm=NONE guifg='.comment.' guibg=NONE gui=italic'
+execute 'hi Comment ctermfg='.g:comment256.' ctermbg=NONE cterm=NONE guifg='.g:comment.' guibg=NONE gui=italic'
 execute 'hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline'
-execute 'hi Todo ctermfg=247 ctermbg=NONE cterm=inverse,bold guifg='.g:yellow.' guibg=NONE gui=inverse,bold,italic'
+execute 'hi Todo ctermfg='.g:yellow256.' ctermbg=NONE cterm=inverse,bold guifg='.g:yellow.' guibg=NONE gui=inverse,bold,italic'
 
 execute 'hi ErrorMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE'
-execute 'hi Error ctermfg=NONE ctermbg=NONE cterm=NONE guifg='.g:foreground.' guibg='.g:red.' gui=NONE'
+execute 'hi Error ctermfg='.g:fg256.' ctermbg='.g:red256.' cterm=NONE guifg='.g:fg.' guibg='.g:red.' gui=NONE'
 
 hi! link String     HH_Green
 hi! link Constant   HH_Purple
