@@ -58,6 +58,13 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 * LSD: a rewrite of GNU `ls`
 * 🚧 Building...
 
+## Contributing
+> How do I submit a new theme?
+1. Create a repository based on out [template repo](https://github.com/hardhackerlabs/theme-template).
+2. Build your new theme with our color palette.
+3. Submit an issue contains a link to your repository.
+4. We will move the repository to HardHackerLabs organization and give you rights.
+
 ## Sponsers
 * Podcast HardHacker
 <p>
