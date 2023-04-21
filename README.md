@@ -39,7 +39,7 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 | Palette       | Hex         | Preview                                          |
 | ------------- | ----------- | ------------------------------------------------ |
 | Background    | `#282433`   | ![background](media/colors/background.png)       |
-| Darker BG     | `#211e2a`   |                                                  |
+| Darker BG     | `#211e2a`   | ![darker BG](media/colors/background-darker.png) |
 | Foreground    | `#eee9fc`   | ![foreground](media/colors/foreground.png)       |
 | Selection     | `#3f3951`   | ![selection](media/colors/selection.png)         |
 | Comment       | `#777383`   | ![comment](media/colors/comment.png)             |
