@@ -49,6 +49,16 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 | Purple        | `#e192ef`   | ![purple](media/colors/purple.png)               |
 | Cyan          | `#b3f4f3`   | ![cyan](media/colors/cyan.png)                   |
 
+**Usage reference:**
+* Primary color: red
+* String: green
+* Number: yellow
+* Method: red
+* Keyword: blue
+* Operator: foreground
+* Class: cyan
+* Variable: purple
+
 ## Supports:
 * VSCode
 * vim
