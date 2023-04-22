@@ -39,17 +39,15 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 | Palette       | Hex         | Preview                                          |
 | ------------- | ----------- | ------------------------------------------------ |
 | Background    | `#282433`   | ![background](media/colors/background.png)       |
-| Darker BG     | `#211e2a`   | ![darker BG](media/colors/background-darker.png) |
 | Foreground    | `#eee9fc`   | ![foreground](media/colors/foreground.png)       |
 | Selection     | `#3f3951`   | ![selection](media/colors/selection.png)         |
-| Comment       | `#777383`   | ![comment](media/colors/comment.png)             |
+| Comment       | `#938AAD`   | ![comment](media/colors/comment.png)             |
 | Red           | `#e965a5`   | ![red](media/colors/red.png)                     |
 | Green         | `#b1f2a7`   | ![green](media/colors/green.png)                 |
 | Yellow        | `#ebde76`   | ![yellow](media/colors/yellow.png)               |
 | Blue          | `#b1baf4`   | ![blue](media/colors/blue.png)                   |
 | Purple        | `#e192ef`   | ![purple](media/colors/purple.png)               |
 | Cyan          | `#b3f4f3`   | ![cyan](media/colors/cyan.png)                   |
-| Bright Black  | `#655980`   | ![bright black](media/colors/bright%20black.png) |
 
 ## Supports:
 * VSCode
