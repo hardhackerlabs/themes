@@ -24,7 +24,7 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 </p>
 </details>
 
-<details><summary>👀 Good readability</summary>
+<details><summary>👀 Good readability, meets WCAG AA standard</summary>
 <p>
 <img width="920" src="media/foundamental/enough_contrast.png" alt="Enough Contrast">
 </p>
