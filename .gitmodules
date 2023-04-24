@@ -19,3 +19,6 @@
 [submodule "themes/sublime"]
 	path = themes/sublime
 	url = https://github.com/hardhackerlabs/theme-sublime
+[submodule "themes/hyper"]
+	path = themes/hyper
+	url = https://github.com/hardhackerlabs/theme-hyper
