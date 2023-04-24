@@ -16,3 +16,6 @@
 [submodule "themes/vim"]
 	path = themes/vim
 	url = https://github.com/hardhackerlabs/theme-vim
+[submodule "themes/sublime"]
+	path = themes/sublime
+	url = https://github.com/hardhackerlabs/theme-sublime
