@@ -25,3 +25,6 @@
 [submodule "themes/alacritty"]
 	path = themes/alacritty
 	url = https://github.com/hardhackerlabs/theme-alacritty
+[submodule "themes/jetbrains"]
+	path = themes/jetbrains
+	url = https://github.com/hardhackerlabs/theme-jetbrains
