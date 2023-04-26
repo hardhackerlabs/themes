@@ -28,3 +28,6 @@
 [submodule "themes/jetbrains"]
 	path = themes/jetbrains
 	url = https://github.com/hardhackerlabs/theme-jetbrains
+[submodule "themes/emacs"]
+	path = themes/emacs
+	url = git@github.com:hardhackerlabs/theme-emacs.git

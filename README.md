@@ -63,6 +63,7 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 * VSCode
 * vim
 * Sublime Text
+* Emacs
 * iTerm2
 * macOS Terminal
 * Windows Terminal
