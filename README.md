@@ -14,7 +14,7 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 
 ![preview](media/preview/preview.png)
 
-## Features:
+## Features
 
 #### 🎉 Suitable for prolonged use
 
@@ -34,7 +34,7 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 #### 🚀 Continuously increasing support for editors and tools
 
 
-## Color Palette:
+## Color Palette
 
 | Palette       | Hex         | Preview                                          |
 | ------------- | ----------- | ------------------------------------------------ |
@@ -49,7 +49,8 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 | Purple        | `#e192ef`   | ![purple](media/colors/purple.png)               |
 | Cyan          | `#b3f4f3`   | ![cyan](media/colors/cyan.png)                   |
 
-**Usage reference:**
+### Usage reference
+
 * Primary color: red
 * String: green
 * Number: yellow
@@ -59,7 +60,7 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 * Class: cyan
 * Variable: purple
 
-## Supports:
+## Supports
 * VSCode
 * vim
 * Sublime Text
