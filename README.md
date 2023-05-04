@@ -62,6 +62,7 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 
 ## Supports
 * VSCode
+* JetBrains IDEs (since version 2023)
 * vim
 * Sublime Text
 * Emacs
