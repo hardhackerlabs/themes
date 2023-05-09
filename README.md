@@ -1,11 +1,14 @@
 <p align="center">
-  <a href="https://podcasts.apple.com/au/podcast/%E7%A1%AC%E5%9C%B0%E9%AA%87%E5%AE%A2/id1678465783" target="_blank" rel="noopener noreferrer">
+  <a href="https://discord.com/invite/MGmp9QjfkK" target="_blank" rel="noopener noreferrer">
     <img width="180" src="media/logo/logo.png" alt="HardHacker">
   </a>
 </p>
 
 <h1 align="center">
-  HardHacker Themes
+  HardHacker Themes<br/>
+  <a href="https://discord.com/invite/MGmp9QjfkK">
+    <img src="https://img.shields.io/discord/1095552215944527962?style=for-the-badge&logo=discord&color=e965a5&logoColor=eee9fc&labelColor=282433"/>
+  </a>
 </h1>
 
 A visually comfortable dark theme that is suitable for prolonged use. It differs from the typical blueish dark themes and aims to express a unique style with a more futuristic color palette.
