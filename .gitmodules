@@ -31,3 +31,6 @@
 [submodule "themes/emacs"]
 	path = themes/emacs
 	url = git@github.com:hardhackerlabs/theme-emacs.git
+[submodule "themes/wezterm"]
+	path = themes/wezterm
+	url = https://github.com/hardhackerlabs/theme-wezterm.git
