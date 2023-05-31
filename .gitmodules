@@ -34,3 +34,6 @@
 [submodule "themes/wezterm"]
 	path = themes/wezterm
 	url = https://github.com/hardhackerlabs/theme-wezterm.git
+[submodule "themes/kitty"]
+	path = themes/kitty
+	url = https://github.com/miropls/hardhacker-kitty
