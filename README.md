@@ -72,7 +72,8 @@ The color inspiration comes from some cyberpunk-style art works. However, neon c
 * iTerm2
 * macOS Terminal
 * Windows Terminal
-* Hyper Terminal
+* Hyper
+* kitty
 * Alacritty
 * LSD: a rewrite of GNU `ls`
 * 🚧 Building...
